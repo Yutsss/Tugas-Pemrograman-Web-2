@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999999;
+    background-color: #24252a;
+    padding: 30px 10%;
+    position: fixed;
+    width: 100%;
+}
+
+
+.logo button {
+    border: none;
+    border-radius: 50px;
+    background-color: rgba( 0, 136, 169, 1);
+    font-size: 30px;
+    font-family: "Bakbak One";
+    color: white;
+    font-weight: 500;
+    
+}
+
+.menu {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: aqua;
+}
+
+.banner {
+    height: 100vh;
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-size: 30px;
+    background-image: url('banner2.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    color : white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-width: 10px;
+    border-radius: 50px;
+}
+
+.content1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left; 
+    max-width: 400px; 
+    margin: auto; 
+}
+
+.content1 ul {
+    list-style: none;
+}
+
+section {
+    padding-top: 80px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
